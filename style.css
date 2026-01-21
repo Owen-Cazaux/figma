@@ -1,0 +1,686 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+
+}
+
+.footer {
+    background-image: URL(Footer.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    min-height: 400px;
+}
+
+.recherche {
+    background-color: #333030;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: white;
+    padding: 12px;
+    
+}
+
+.recherche > p {
+    margin-bottom: 0;
+}
+
+.recherchebtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#researchbar {
+    border-radius: 5px;
+    background-color: #FFFFFF14;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 8px;
+    width: 400px;
+}
+
+.continue {
+    display: flex ;
+    justify-content:center ;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    color : black ; 
+    border-radius: 5px;
+    height: 24px;
+    padding: 20px; 
+    
+}
+
+#cross {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 20px;
+    width: 20px;
+}
+
+.continue > p {
+    margin-bottom: 0;
+}
+
+.smallicon {
+    height: 24px;
+    width: 17.809999465942383px;
+}
+
+.logocountry {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+}
+
+.logocountry>p {
+    margin-bottom: 0;
+}
+
+.navbar {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    align-content: center;
+    flex-direction: row;
+    gap : 40px ; 
+    color : white ;
+    
+}
+
+.navbar > p {
+    margin-bottom: 0;
+    opacity : 0.6 ; 
+}
+
+#logoapple {
+    color : white ;
+    height: 44px;
+    width : 30px ; 
+    opacity : 0.6 ; 
+}
+
+#loupe {
+    color : white ;
+
+    opacity : 0.8 ;
+}
+
+#shop {
+    color : white ;
+    height: 14.075250625610352px;
+    width : 14.075250625610352px ; 
+    opacity : 0.8 ;
+}
+
+.regle {
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: white; 
+    color : black ;
+    gap : 10px ; 
+}
+
+.regle > a {
+    text-decoration: none;
+    
+}
+
+.regle > p {
+    margin-bottom: 0;
+    
+}
+
+
+.sectionevent {
+    background-image: URL(event.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    min-height: 400px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.event>p {
+    color: white;
+
+}
+
+.event>h2 {
+    color: white;
+
+}
+
+.sectioniphone {
+    background-image: URL(iPhones.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    min-height: 400px;
+    margin-top: 8px;
+}
+
+
+.sectiongift {
+    background-image: URL(logoapple.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    min-height: 400px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.sectionfamily {
+    background-image: URL(family.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    min-height: 400px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+
+.packarticle {
+    width: 100%;
+    height: auto;
+    margin-top: 8px;
+}
+
+
+
+
+
+
+.ipadair {
+
+    width: 430px;
+    height: 33px;
+    margin-top: 58px;
+    margin-bottom: 10px;
+    margin-left: 256px;
+    margin-right: 256px;
+}
+
+.watchseries11 {
+
+    width: 430px;
+    height: 33px;
+    margin-top: 58px;
+    margin-bottom: 10px;
+    margin-left: 256px;
+    margin-right: 256px;
+}
+
+.tradein {
+
+    width: 430px;
+    height: 33px;
+    margin-top: 58px;
+    margin-bottom: 10px;
+    margin-left: 256px;
+    margin-right: 256px;
+
+}
+
+.description1 {
+
+
+    height: 25px;
+    margin-top: 0px;
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.description2 {
+
+    width: 200px;
+    height: 25px;
+    margin-top: 0px;
+    margin-bottom: 55px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.description3 {
+    width: 370px;
+    height: 25px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    ;
+    height: 25px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.btn1 {
+
+    background-color: #0071E3;
+    border-radius: 980px;
+    width: 125px;
+    height: 36px;
+    padding-top: 4px;
+    padding-bottom: 9px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+.btn2 {
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0071E3;
+    border-radius: 980px;
+    width: 90px;
+    height: 36px;
+    padding-top: 2px;
+    padding-bottom: 7px;
+    padding-right: 5px;
+    padding-left: 5px;
+
+    color: #0071E3;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+.btn3 {
+
+    background-color: #0071E3;
+    border-radius: 980px;
+    width: 210px;
+    height: 36px;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 101px;
+
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+.btn4 {
+
+    background-color: #0071E3;
+    border-radius: 980px;
+    width: 185px;
+    height: 36px;
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+.btn5 {
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0071E3;
+    border-radius: 980px;
+    width: auto;
+    height: 36px;
+    padding-top: 4px;
+    padding-bottom: 9px;
+    padding-right: 9px;
+    padding-left: 9px;
+
+
+    color: #0071E3;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+.boutons2 {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+}
+
+
+.title2 {
+    text-align: center;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 60;
+    font-weight: bold;
+
+
+}
+
+
+.title3 {
+    text-align: center;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 58px;
+    height: 44;
+    font-weight: bold;
+
+
+}
+
+.article1 {
+    background-image: URL(ipad.png);
+    background-size: cover;
+    width: 942px;
+    height: 580px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+
+
+
+
+
+}
+
+.article2 {
+
+    background-image: URL(airpods.png);
+    background-size: cover;
+    width: 942px;
+    height: 580px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    margin-left: 0px;
+
+}
+
+.article3 {
+    background-image: URL(applewatch.png);
+    background-size: cover;
+    width: 942px;
+    height: 580px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+
+.article4 {
+    background-image: URL(pileipad.png);
+    background-size: cover;
+    width: 942px;
+    height: 580px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+
+.article5 {
+    background-image: URL(macbookair.png);
+    background-size: cover;
+    width: 942px;
+    height: 580px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+
+.article6 {
+    background-image: URL(mainiphone.png);
+    background-size: cover;
+    width: 942px;
+    height: 580px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+
+.gift {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+
+
+
+
+
+.iphones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 65px;
+
+
+}
+
+@media screen and (max-width : 576px) {
+    .header,
+    .recherche,
+    .navbar,
+    .regle
+     {
+        width: 500px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        
+    }
+    .continue,
+    .recherchebtn {
+        flex-wrap: wrap;
+       
+    }
+    .navbar {
+        font-size: 8px;
+    }
+    .regle {
+        font-size: 4px;
+    }
+
+   
+    
+}
+
+
+@media screen and (max-width : 768px) {
+    .header,
+    .recherche,
+    .navbar,
+    .regle
+    
+     {
+        width: 700px;
+        flex-wrap: wrap;
+        
+        
+    }
+
+    .continue,
+    .logocountry {
+        flex-wrap: wrap;
+    }
+    .navbar {
+        font-size: 8px;
+    }
+    .regle {
+        font-size: 4px;
+    }
+
+    
+}
+
+@media (max-width : 992px) {
+    .header,
+    .recherche,
+    .navbar,
+    .regle
+    
+     {
+        width: 900px;
+        flex-wrap: wrap;
+       
+        
+    }
+
+    .continue,
+    .logocountry {
+        flex-wrap: wrap;
+    }
+    .navbar {
+        font-size: 8px;
+    }
+    .regle {
+        font-size: 4px;
+    }
+}
+
+@media (max-width : 1200px) {
+    .header,
+    .recherche,
+    .navbar,
+    .regle
+    
+     {
+        width: 1100px;
+        flex-wrap: wrap;
+        
+        
+    }
+    .continue,
+    .logocountry {
+        flex-wrap: wrap;
+    }
+    .navbar {
+        font-size: 8px;
+    }
+    .regle {
+        font-size: 4px;
+    }
+}
+
+
+
+
+@media (max-width : 1400px) {
+    .header,
+    .recherche,
+    .navbar,
+    .regle
+     {
+        width: 1100px;
+        flex-wrap: wrap;
+        
+        
+        
+    }
+    .continue,
+    .logocountry {
+        flex-wrap: wrap;
+    }
+
+    .navbar {
+        font-size: 8px;
+    }
+    .regle {
+        font-size: 4px;
+    }
+
+    .sectionevent,
+    .sectionfamily,
+    .sectioniphone,
+    .sectiongift{
+        width: 1400px;
+        font-size: 8px;
+        h2 {
+            font-size: 14px;
+        }
+    }
+}
+
+
+
