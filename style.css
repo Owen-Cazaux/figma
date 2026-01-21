@@ -7,7 +7,7 @@
 }
 
 .footer {
-    background-image: URL(Footer.png);
+    background-image: URL(images/Footer.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -126,9 +126,9 @@
 }
 
 #shop {
-    color : white ;
-    height: 14.075250625610352px;
-    width : 14.075250625610352px ; 
+    color : white ; 
+    height: 14px;
+    width: 14px;
     opacity : 0.8 ;
 }
 
@@ -156,7 +156,7 @@
 
 
 .sectionevent {
-    background-image: URL(event.png);
+    background-image: URL(images/event.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -188,7 +188,7 @@
 }
 
 .sectioniphone {
-    background-image: URL(iPhones.png);
+    background-image: URL(images/iPhones.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -199,7 +199,7 @@
 
 
 .sectiongift {
-    background-image: URL(logoapple.png);
+    background-image: URL(images/logoapple.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -213,7 +213,7 @@
 }
 
 .sectionfamily {
-    background-image: URL(family.png);
+    background-image: URL(images/family.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -251,7 +251,7 @@
 .watchseries11 {
 
     width: 430px;
-    height: 33px;
+    height: 36px;
     margin-top: 58px;
     margin-bottom: 10px;
     margin-left: 256px;
@@ -439,7 +439,7 @@
 }
 
 .article1 {
-    background-image: URL(ipad.png);
+    background-image: URL(images/ipad.png);
     background-size: cover;
     width: 942px;
     height: 580px;
@@ -457,7 +457,7 @@
 
 .article2 {
 
-    background-image: URL(airpods.png);
+    background-image: URL(images/airpods.png);
     background-size: cover;
     width: 942px;
     height: 580px;
@@ -469,7 +469,7 @@
 }
 
 .article3 {
-    background-image: URL(applewatch.png);
+    background-image: URL(images/applewatch.png);
     background-size: cover;
     width: 942px;
     height: 580px;
@@ -481,7 +481,7 @@
 }
 
 .article4 {
-    background-image: URL(pileipad.png);
+    background-image: URL(images/pileipad.png);
     background-size: cover;
     width: 942px;
     height: 580px;
@@ -493,7 +493,7 @@
 }
 
 .article5 {
-    background-image: URL(macbookair.png);
+    background-image: URL(images/macbookair.png);
     background-size: cover;
     width: 942px;
     height: 580px;
@@ -505,7 +505,7 @@
 }
 
 .article6 {
-    background-image: URL(mainiphone.png);
+    background-image: URL(images/mainiphone.png);
     background-size: cover;
     width: 942px;
     height: 580px;
